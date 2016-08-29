@@ -1,0 +1,24 @@
+get the values from dataframe based on a condition:
+	df_small_cnv = df1.loc[df1['length_of_cnv'] <= 100]
+
+pandas drop specific column 
+	df1=df1.drop('diff', axis =1 )
+
+read csv file:
+	df = pd.read_csv('T44088_T57338_D.csv',sep='\t')
+
+get count of distinct values in a column:
+	df.D_col.value_counts()
+
+strip part of a value from column:
+	 df['BP start']=df['BP start'].map(lambda x: x.strip('BP '))
+
+
+change data type of column:
+	df[['BP_start']] = df[['BP_start']].astype(int)
+
+
+get the index of the series as a list:
+	 val_count.index.values
+
+
