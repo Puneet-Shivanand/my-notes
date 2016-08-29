@@ -1,0 +1,12 @@
+F2 creates new windows
+Alt-Left and Alt-Right moves back and forth between them
+Ctrl-F2 creates a vertical splits
+Shift-F2 creates horizontal splits
+Shift-Up, -Down, -Left, -Right, move around the splits
+Ctrl-Shift-F2 creates a new session
+Alt-Up and Alt-Down moves between sessions
+
+f7 mouse scroll byobu
+ctrl-f6 delete tab
+
+
