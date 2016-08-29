@@ -1,0 +1,87 @@
+git to use squash and add all commits 
+	git reset --soft HEAD~3 &&
+	git commit
+
+To get colored diff output
+	git config --global color.ui auto
+
+git add
+
+git commit -m "message"
+
+git push
+
+git branch -a 
+
+git checkout -b develop """create a branch"""
+
+git checkout develop """change to branch """
+
+git merge hotfix	"""merge hotfix branch to current branch"""
+
+git push origin BRANCH_NAME  """push to server branch"""
+
+git reset HEAD~ """ undo commits """
+
+git log --graph --full-history --all --pretty=format:"%h%x09%d%x20%s"
+
+git rebase -i HEAD~3
+
+pull changes from source:
+
+git remote add bret git://github.com/bret/watir.git
+git pull bret master
+git push
+
+Nano:
+	If you want to save the changes you've made, press Ctrl + O . To exit nano, type Ctrl + X 
+
+sudo fuser -k 8000/tcp *** kill django server
+
+
+
+		Git: Squash your latests commits into one
+
+		With git it’s possible to squash previous commits into one. This is a great way to group certain changes together before sharing them with others. ~ Here’s how to squash some commits into one. Let’s say this is your current git log.
+
+		* df71a27 - (HEAD feature_x) Updated CSS for new elements (4 minutes ago)
+		* ba9dd9a - Added new elements to page design (15 minutes ago)
+		* f392171 - Added new feature X (1 day ago)
+		* d7322aa - (origin/feature_x) Proof of concept for feature X (3 days ago)
+		You have a branch feature_x here. You’ve already pushed d7322aa with the proof of concept of the new feature X. After that you’ve been working to add new element to the feature, including some changes in CSS. Now, you want to squash your last three commits in one to make your history look pretty.
+
+		The command to accomplish that is:
+
+		git rebase -i HEAD~3
+		This will open up your editor with the following:
+
+		pick f392171 Added new feature X
+		pick ba9dd9a Added new elements to page design
+		pick df71a27 Updated CSS for new elements
+		Now you can tell git what to do with each commit. Let’s keep the commit f392171, the one were we added our feature. We’ll squash the following two commits into the first one - leaving us with one clean commit with features X in it, including the added element and CSS.
+
+		Change your file to this:
+
+		pick f392171 Added new feature X
+		squash ba9dd9a Added new elements to page design
+		squash df71a27 Updated CSS for new elements
+		When done, save and quit your editor. Git will now squash the commits into one. All done!
+
+		Note: do not squash commits that you’ve already shared with others. You’re changing history and it will cause trouble for others.
+
+
+sudo apt-get install libmysqlclient-dev
+
+git remote -v
+	view all remotes
+
+To add a new remote, use the git remote add command on the terminal, in the directory your repository is stored at.
+
+	git remote add origin https://github.com/user/repo.git
+
+
+### remove all changes made to file
+git checkout  pearl/apps/reliance/templates/page.html
+
+
+
