@@ -21,4 +21,13 @@ change data type of column:
 get the index of the series as a list:
 	 val_count.index.values
 
+rename column names:
+	df.columns = ['Leader', 'Time', 'Score']
+	df.rename(columns={'Leader': 'Commander'}, inplace=True)
+
+
+pandas list unique values:
+
+	df.name.unique()
+
 
