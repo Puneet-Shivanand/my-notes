@@ -1,0 +1,83 @@
+ACT
+---
+login: 10999478 ni71to
+
+MAC Address E8-DE-27-50-6D-C1
+IP Address 202.83.16.200 Static IP
+Subnet Mask 255.255.252.0
+Default Gateway	202.83.16.1
+DNS Server 202.83.21.12 , 202.83.20.101
+
+
+
+ROUTER
+------
+TOP
+router: lrb lrbctog
+wireless: CtoG lrbctog#1
+
+
+BOTTOM
+router: lrb lrbctog
+wireless: Callisto lrbctog#1
+
+
+CLOUD
+-----
+
+root welc0me
+
+
+
+SYSTEM PASSWORDS
+----------------
+anand: k3 biotec123
+dnyanesh: lrb asdf;lkj
+shivangi:
+sanjay:
+Anupriya: anupriya014
+
+
+
+SERVER ACCOUNTS
+-------------------
+shivangi LrBjune2014*#
+sanjay San8.net_88#
+lrb lrb
+anupriya anupriya
+
+
+callisto
+
+
+elara
+anand:
+
+
+
+## mysql
+anand s3cr3tctog#1
+
+
+
+
+
+PAYPAL
+------
+
+API Username   accounts_api1.leucinerichbio.com
+API Password    UH9NNXF85J7822JZ
+Signature AFcWxV21C7fd0v3bYYYRCpSSRl31AiQxYXPXPHkUEuBZeCaFuXyeLjwi
+
+
+
+SENDGRID
+--------
+login: anand.r lrbctog#1-
+
+
+
+
+FTP
+---
+bencos b*1Tl#s7

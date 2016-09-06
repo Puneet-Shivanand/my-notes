@@ -1,0 +1,6 @@
+1)	If model has been changed for updating database then run:
+'''	
+	python manage.py migrate reliance zero --settings=pearl.settings.local  
+	python manage.py makemigrations reliance --settings=pearl.settings.local
+	python manage.py migrate reliance --settings=pearl.settings.local
+'''

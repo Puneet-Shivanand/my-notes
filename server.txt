@@ -1,0 +1,17 @@
+1) copy to and from serve
+	puneetctog#1
+
+	rsync -raz Pythonpgms\ done.odt puneet@192.168.0.111:/home/puneet 
+
+2)  ssh puneet@192.168.0.111
+
+3) ctrl+D exit 
+
+4)	f7 mouse scroll byobu
+
+
+5)	for i in {1..5}; do echo "HODOR "$i; done 
+
+6) 	rsync --ignore-existing -raz --progress src dest
+
+

@@ -1,0 +1,11 @@
+in elara install packages in this location:
+	/usr/local/lib/R/site-library
+
+
+install paclahes using Bioclite:
+
+	source("http://bioconductor.org/biocLite.R")
+	biocLite("foreach")
+
+	'foreach', 'doMC', 'DNAcopy
+
