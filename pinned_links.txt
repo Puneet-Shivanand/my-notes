@@ -31,3 +31,5 @@ https://prakhar.me/docker-curriculum/
 https://www.digitalocean.com/community/tutorials/docker-explained-how-to-containerize-python-web-applications
 https://www.dataquest.io/blog/python-data-visualization-libraries/
 
+
+http://machinelearningmastery.com/machine-learning-in-python-step-by-step/
