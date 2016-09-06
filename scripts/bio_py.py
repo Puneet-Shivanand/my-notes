@@ -1,6 +1,6 @@
 from Bio import Entrez
 from Bio import Medline
-Entrez.email='puneet.as@leucinerichbio.com'
+Entrez.email='your-email-id@domain.com'
 
 handle= Entrez.esearch(db='gene', retmax=10, term='kinetochore')
 record = Entrez.read(handle)
