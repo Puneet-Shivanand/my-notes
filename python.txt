@@ -1,0 +1,3 @@
+
+##convert a list of string to list of int
+  sum(map(int,x)
