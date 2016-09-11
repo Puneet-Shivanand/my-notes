@@ -15,3 +15,15 @@
 6) 	rsync --ignore-existing -raz --progress src dest
 
 
+Download all files in folder using wget:
+
+	wget -r --user='*********' --password='********' ftp://ftp.ftp.abcd.com/foo/bar ./
+
+Find the size of current directory:
+	du -sh .
+
+call cmd in a for loop :
+	for file in $(ls); do  fastqc $file; done
+
+
+
