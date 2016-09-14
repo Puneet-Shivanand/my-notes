@@ -1,0 +1,28 @@
+C - Ctrl  M - Esc
+C-x C-f - finds a file , if it does not exist creates a new file from buffer.
+C-x C-s - saves the file.
+C-x s - saves all files.
+C-s C-w - saves the file as.
+C-x C-c to - quit emacs
+
+M-x recover-file - seelect the file and it recovers the saved file.
+
+
+C-y - pasted the content of clipboard
+C-k - Kills/deletes the line and pastes on clipboard.
+
+C-space : marks or highlights a region to clipboard.
+M-w - Copies the region into the clipboard.
+C-w - Cuts the region into clipboard.
+
+C-g - Exitis your comand in emacs
+
+
+C-a - Goto Begining of line.
+C-e - Goto to end of line.
+M-> - End of Buffer.
+M-< - Start of Buffer.
+
+
+C-/ - Undo.
+C-g C-/ - Redo.
