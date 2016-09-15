@@ -1,3 +1,8 @@
 
 ##convert a list of string to list of int
   sum(map(int,x)
+
+
+### Unicode de-code error
+handle = open("path-to-filer","rb")
+tfidf_vectorizer = pickle.load(handle, encoding='latin-1')
