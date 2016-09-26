@@ -36,5 +36,8 @@
 12) get only the no of lines inside a file
 	wc -l path/to/file.txt | cut -f1 -d' '
 
+13) find the number of files in a directory 
+	ls -1 | wc -l
+
 
 
