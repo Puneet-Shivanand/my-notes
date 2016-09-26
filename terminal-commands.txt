@@ -1,36 +1,40 @@
 1) copy to and from serve
 	
-	rsync -raz Pythonpgms\ done.odt puneet@192.168.0.111:/home/puneet 
+	rsync -raz Pythonpgms\ done.odt puneet@path_to_network:/home/puneet 
 
-2)  ssh puneet@192.168.0.111
+2)  ssh puneet@path_to_network
 
-3) ctrl+D exit 
+3) ctrl+D 	exit current program 
 
-4)	f7 mouse scroll byobu
-
-
-5)	for i in {1..5}; do echo "HODOR "$i; done 
-
-6) 	rsync --ignore-existing -raz --progress src dest
+4) f7	 enable mouse scroll option in byobu
 
 
+5) for loop in terminal
+	for i in {1..5}; do echo "HODOR "$i; done 
 
-REGEX.
+6) Copy current files skiping existong files
+	rsync --ignore-existing -raz --progress src dest
+
+
+
+7)	REGEX.
 	cat Human.bed | cut -f1 | sort | uniq
 
-	awk '{print $0 >> $1".bed"}' example.bed
+8)	awk '{print $0 >> $1".bed"}' example.bed
 		takes example.bed and gives 1 file for each single chromosome
 
 
-Download all files in folder using wget:
-
+9) Download all files in folder using wget:
 	wget -r --user='*********' --password='********' ftp://ftp.ftp.abcd.com/foo/bar ./
 
-Find the size of current directory:
+10) Find the size of current directory:
 	du -sh .
 
-call cmd in a for loop :
+11) call cmd in a for loop :
 	for file in $(ls); do  fastqc $file; done
+	
+12) get only the no of lines inside a file
+	wc -l path/to/file.txt | cut -f1 -d' '
 
 
 
