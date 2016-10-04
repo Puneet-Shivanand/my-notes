@@ -4,6 +4,8 @@ C-x C-s - saves the file.
 C-x s - saves all files.
 C-s C-w - saves the file as.
 C-x C-c to - quit emacs
+C-x k	  Close File
+
 
 M-x recover-file - seelect the file and it recovers the saved file.
 
