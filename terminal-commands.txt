@@ -50,5 +50,15 @@
     if screen not present create and attach to given session.
     	screen -Rd
 	
+16) Byobu screen problem
+	screen -r
+	or
+	screen -ls
+get the screen id to kill
+	
+	kill -9 <screenID>
+then kill the screen with its id. It now becomes a dead screen then 
+	screen -wipe
+wipe it out screen 
 
 
