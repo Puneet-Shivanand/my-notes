@@ -61,4 +61,7 @@ then kill the screen with its id. It now becomes a dead screen then
 	screen -wipe
 wipe it out screen 
 
+17) (time ls) &> file
+
+	write the time of file exec to out file
 
