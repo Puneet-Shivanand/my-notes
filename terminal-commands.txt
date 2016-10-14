@@ -64,4 +64,6 @@ wipe it out screen
 17) (time ls) &> file
 
 	write the time of file exec to out file
+18) date +'%d%m%Y'
+	print date in terminal
 
