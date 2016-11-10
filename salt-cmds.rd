@@ -23,6 +23,10 @@
      salt '*' test.ping
   ### Install on specific minion
     salt '03767c255555' cmd.run 'yum install -y python-pip'
+    
+  ### Install from a yaml file
+    salt '*' state.highstate saltenv=base
+ 
 
 
 
