@@ -85,4 +85,8 @@ wipe it out screen
 
 		echo
 		echo "All processes have completed";
+	
+20) Display current logged in users:  
+
+	ps aux | awk '{ print $1 }' | sed '1 d' | sort | uniq | perl -e 'for (<>) { chomp; $u = ( getpwnam($_) )[2]; print $_, "\n" if ( ( $u >= 1000 || $u == 0 ) && ( $_ =~ /[[:alpha:]]/ && $_ ne "nobody" ) ) }'
 
