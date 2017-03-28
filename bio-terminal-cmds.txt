@@ -1,0 +1,4 @@
+
+1) Retrieve only sequences from fastq file:
+    awk 'NR % 4 == 2' GB101_1.fastq > /home/puneet/rna_ks/data
+/vin/reads_GB101_1.txt
