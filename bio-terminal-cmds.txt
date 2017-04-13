@@ -2,3 +2,18 @@
 1) Retrieve only sequences from fastq file:
     awk 'NR % 4 == 2' GB101_1.fastq > /home/puneet/rna_ks/data
 /vin/reads_GB101_1.txt
+
+2) use below command to split large list file
+        split -l 75 auth.log auth.log.
+
+3) run shuf command to shufffle the lines in the files
+        shuf filename > redirect_file
+
+4) time to shuffle :
+        (time shuf ids.list.ac) > shuf3 2> shuf_time
+    ( time shuf ids.list.ac ) > shuf3 2> shuf_time_taken
+
+    (/usr/bin/time -vq shuf ids.list.ad) > shuf4 2> shuf_time_taken2
+
+5) join two files column wise
+        paste head_shuf head_all_chrs | column -s $'\t' -t
