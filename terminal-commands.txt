@@ -93,3 +93,7 @@ wipe it out screen
 	
 21) Change the user home directory for different ftp users
 	usermod -d /var/www/my.domain.example/ exampleuser
+	
+22) get the entire path for a file:
+	readlink -f file.txt
+
