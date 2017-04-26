@@ -99,6 +99,9 @@ wipe it out screen
 	
 23) compress a folder to a tarball
 	tar -cvzf scheduler.tar.gz scheduler
+	
+24) Uncompress a tar ball
+	tar -xvzf scheduler.tar.gz
 
 
 
