@@ -96,4 +96,9 @@ wipe it out screen
 	
 22) get the entire path for a file:
 	readlink -f file.txt
+	
+23) compress a folder to a tarball
+	tar -cvzf scheduler.tar.gz scheduler
+
+
 
