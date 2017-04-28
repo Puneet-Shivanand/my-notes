@@ -102,6 +102,11 @@ wipe it out screen
 	
 24) Uncompress a tar ball
 	tar -xvzf scheduler.tar.gz
+	
+25) Run a command X times
+	function __run_times { seq 1 $1| { shift; xargs -i -- "$@"; } }
+	
+	__run_times 3 python foo_bar.py 
 
 
 
