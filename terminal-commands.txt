@@ -107,6 +107,9 @@ wipe it out screen
 	function __run_times { seq 1 $1| { shift; xargs -i -- "$@"; } }
 	
 	__run_times 3 python foo_bar.py 
+	
+26) zip and encrpt file with password
+	zip -er F.zip F
 
 
 
