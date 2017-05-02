@@ -110,6 +110,9 @@ wipe it out screen
 	
 26) zip and encrpt file with password
 	zip -er F.zip F
+	
+27) delete all files except of type .txt
+	find . -type f ! -name '*.txt' -delete
 
 
 
