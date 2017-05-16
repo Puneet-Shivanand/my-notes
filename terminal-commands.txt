@@ -113,6 +113,8 @@ wipe it out screen
 	
 27) delete all files except of type .txt
 	find . -type f ! -name '*.txt' -delete
-
+	
+28) see active connections to system:
+	netstat -tupn
 
 
