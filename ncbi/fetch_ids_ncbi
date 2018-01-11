@@ -1,0 +1,6 @@
+use edirect commandline package from commandline goto link
+	https://dataguide.nlm.nih.gov/edirect/install.html
+for installation
+After installation follow the following steps to fetch SRA ids required
+	nohup ./edirect/esearch -db SRA -query '("Homo sapiens") AND "Homo sapiens"[orgn:__txid9606]' | ./edirect/efetch -db SRA -format runinfo > SRA_list_human1.ids
+
